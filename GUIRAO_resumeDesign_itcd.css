@@ -1,0 +1,59 @@
+body {
+    background-color: #F7FFE0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 3.25em;
+    line-height: 0.75em;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Spectral', serif;
+    font-size: 2.25em;
+    line-height: 0.25em;
+    color: #17301C;
+    text-shadow: 3px 3px 4px #7EA3CC;
+}
+
+h3 {
+    text-align: center;
+    font-family:'Nanum Myeongjo', serif;
+    font-style: oblique;
+    font-size: 0.75em;
+    line-height: 0.75em;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    word-spacing: 0.5em;
+    line-height: 1.5em;
+}
+
+p.format {
+    text-indent: 5em;
+    font-weight: 1000;
+}
+
+.category {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #7EA3CC;
+    color: #F4D58D;
+    text-shadow: 4px 4px 4px #17301C;
+    text-align: center;
+    margin-left: 2.5%;
+    margin-right: 5%;
+    list-style-position: inside;
+}
+
+li {
+    list-style-position: inside;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 550;
+}
