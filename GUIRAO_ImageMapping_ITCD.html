@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="Author" content="Guirao, John Darrell">
+    <meta name="Description" content="Image Mapping">
+    <title>The Solar System - Guirao</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <script language ="JavaScript">
+        function writeText(txt) {
+            document.getElementById("desc").innerHTML=txt;
+        }
+
+        function dissolveText(txt) {
+            document.getElementById("desc").innerHTML=txt;
+        }
+    </script>
+    <style type="text/css">
+        h1 {
+            text-align: center;
+            font-family: 'Space Mono', monospace;
+            color: #F7FFF7;
+            font-weight: 700;
+            font-size: 4em;
+            letter-spacing: 12px;
+            line-height: 75px;
+        }
+
+        h3 {
+            text-align: center;
+            font-family: 'Space Mono', monospace;
+            color: #F7FFF7;
+            line-height: 10px;
+            font-size: 1em;
+        }
+
+        p {
+            text-align: center;
+            font-family: 'Space Mono', monospace;
+            color: #F7FFF7;
+            line-height: 40px;
+        }
+    </style>
+</head>
+<body style="background-color: #343434;">
+    <link rel="stylesheet" type="text/css" href="link.css">
+    <!--GUIRAO, JOHN DARRELL-->
+    <!--March 22, 2022-->
+    
+    <h1>THE SOLAR SYSTEM.</h1>
+    <h3>John Darrell Guirao</h3>
+    <h3>ITCD</h3>
+
+    <br>
+    <div align="center">
+        <img src="../IMAGES/solar_system.jpg" alt="Shows the planets in our solar system." usemap="#solarSystem">
+        <map name="solarSystem">
+            <area shape="rect" coords="178, 373, 222, 415" href="planetMercury.html" alt="Links to the Mercury planet page." onMouseOver="writeText ('Mercury consists of approximately 70% metallic and 30% silicate material.')" onMouseOut="dissolveText('')" target="mercuryPage">
+
+            <area shape="circle" coords="96, 292, 65" href="planetEarth.html" alt="Links to the Earth planet page." onMouseOver="writeText ('Earth is the only known place in the universe to support life.')" onMouseOut="dissolveText('')" target="earthPage">
+
+            <area shape="poly" coords="303, 23, 330, 42, 339, 74, 323, 103, 301, 121, 265, 113, 241, 91, 241, 53, 257, 33, 277, 25, 291, 26" href="planetUranus.html" alt="Links to the Uranus planet page." onMouseOver="writeText ('Uranus was discovered in 1781 by astronomer William Herschel.')" onMouseOut="dissolveText('')" target="uranusPpage">
+        </map>
+    </div>
+    <p id="desc"></p>
+</body>
+</html>
