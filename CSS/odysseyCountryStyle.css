@@ -37,40 +37,32 @@ body {
 }
 
 .heading {
-    max-width: 90%;
-    margin: auto;
+    max-width: 100%;
+    margin: 1em auto 2em;
     text-align: center;
 }
 
 .heading > div {
     display: inline-block;
-    max-width: 40%;
     height: auto;
-    margin: 1em 1em 1em 4em;
-    vertical-align: middle;
-}
-
-.heading .image > img {
-    max-width: 80%;
-    height: auto;
-    margin: 2em;
-    border-radius: 25px;
+    margin: 1em 0 0;
+    vertical-align: top;
 }
 
 .heading > .text {
-    text-align: left;
+    text-align: center;
 }
 
 .heading .text > h1 {
-    font-size: 4em;
+    font-size: 7em;
     font-weight: 900;
     color: #662E9B;
-    margin-bottom: 0.25em;
+    margin-bottom: 0;
 }
 
 .heading .text > h2 {
     margin-top: 0;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 800;
     color:#EF6F6C;
 }
@@ -95,60 +87,38 @@ body {
     border-radius: 15px;
 }
 
-.start-reading > a {
-    color: #FDFAE1;
-    padding: 1em 3em 1em;
-    text-decoration: none;
+.images {
+    text-align: center;
 }
 
-.start-reading > a:hover {
-    font-weight: 600;
-}
-
-.gallery > div {
+.images a > img {
+    border-radius: 2em;
     margin: 1em;
-    text-align: center;
-}
-
-.gallery div > h2 {
-    font-size: 3em;
-    font-weight: 800;
-    color:#662E9B;
-    text-align: center;
-    margin-top: 5em;
-}
-
-.gallery div a > img {
-    display: inline-block;
-    max-width: 25%;
-    height: auto;
-    margin: 1em 1em 1em 4em;
+    max-width: 30%;
     vertical-align: middle;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #FDFAE1;
-    border-radius: 15px;
-    box-shadow: 10px 10px 0px 1px #662E9B;
-    opacity: 0.80;
 }
 
-.gallery div img:hover {
-    border-color: #EF6F6C;
-    border-width: 5px;
-    border-style: solid;
-    opacity: 1;
-}
+.description {
+    font-weight: 600;
+    color: #662E9B;
+    text-align: justify;
+    text-indent: 4em;
+    font-size: 1.5em;
+    padding: 0 3em;
 
+    line-height: 2em;
+}
 
 .back-to-top {
     text-align: center;
     font-size: 1.125em;
     width: 10%;
-    margin: 1em auto 1em;
+    margin: 5em auto 1em;
     padding: 1em 2em 1em;
     background-color: #EF6F6C;
     border-radius: 15px;
 }
+
 
 .back-to-top > a {
     color: #FDFAE1;
@@ -163,8 +133,8 @@ body {
 .explore-button {
     text-align: center;
     font-size: 1.125em;
-    width: 15%;
-    margin: 5em auto 4em;
+    width: 25%;
+    margin: 2em auto 4em;
     padding: 1em 2em 1em;
     background-color: #662E9B;
     border-radius: 15px;
