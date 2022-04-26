@@ -1,0 +1,238 @@
+
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: #EDE5A6;
+}
+
+fieldset{
+    margin: 2em 0;
+    padding: 1em 2em;
+    border:  10px solid 0D1321;
+    border-radius: 6px;
+    min-width: 200px;
+    background-color: #F2D0A9;
+}
+  
+legend{
+    font-size: 0.75em;
+    padding: 0 .25em;
+    font-family: "Tahoma";
+}
+  
+#house {
+    width: 42%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 3.25em;
+    font-family: 'Kaushan Script', serif;
+    padding: 20px 5px;
+    font-weight: 700;
+}
+
+#custInfo, #burger, #pasta, #fries,
+#drinks, #feedback, #delivery {
+    font-size: 2em;
+    font-family: 'Kaushan Script', serif;
+}
+
+#drinkSize {
+    font-size: 1em;
+    text-align: center;
+}
+  
+label{
+    display:block;
+    margin-top: 1em;
+    font-family: 'Oxygen', sans-serif;
+}
+  
+.checks label{
+    margin-top: 0;
+}
+  
+label:first-of-type{
+    margin-top:0;
+} 
+  
+input{
+    padding: .5em;
+    border: solid 1px #999;
+}
+  
+input[type="text"], input[type="phone"], input[type="email"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+textarea{
+    min-height: 8em;
+    min-width: 80%;
+    padding: .5em;
+    border: solid 1px #999;
+    border-radius: 4px;
+    margin-right:.5em;
+    box-sizing: border-box;
+    resize:none;
+}
+  
+input[type="checkbox"] + label + input[type="radio"] + label{
+    display: inline-block;
+    padding-top: 0;
+    margin-top:0;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+
+input[type="radio"]{
+    padding-left: 2px;
+    margin-right: 50%;
+}
+  
+input[type="radio"]{
+    margin-left: 1.5em;
+    margin-right: 0;
+}
+  
+input[type="submit"]{
+    margin-left: 700px;
+    margin-right: auto;
+    padding: .5em 1.5em;
+    border-radius: 6px;
+    background-color: black;
+    color: #fff;
+    font-family: 'Tahoma', sans-serif;
+    font-size: 1em;
+}
+   
+@media screen and (min-width: 430px){
+    legend{
+      font-size: 1.25em;
+    }
+}
+  
+fieldset {
+    width: 40%;
+    min-width:320px;
+    margin:auto;
+}
+  
+.checks label{
+    display: inline-block;
+    padding-top: .5em;
+    margin-top: 0;
+    margin-right: .5em;
+}
+
+img.pageLogo {
+    vertical-align: middle;
+    height: 90px;
+    width: 90px;
+}
+
+img.food {
+    max-width: 90%;
+    height: 20em;
+    margin: 2em;
+    border-radius: 25px;
+}
+
+img.iconMenu {
+    height: 60px;
+    width: 60px;
+    padding: 1em 2em;
+}
+
+img.orderIcon {
+    vertical-align: middle;
+    height: 70px;
+    width: 70px;
+}
+
+img.pastaIcon {
+    height: 60px;
+    width: 70px;
+    padding: 1em 2em;
+}
+
+img.orderFlavorIcon {
+    vertical-align: middle;
+    height: 80px;
+    width: 90px;
+}
+
+img.orderSizeIconOne {
+    vertical-align: middle;
+    height: 40px;
+    width: 40px;
+}
+
+img.orderSizeIconTwo {
+    vertical-align: middle;
+    height: 50px;
+    width: 50px;
+}
+
+img.orderSizeIconThree {
+    vertical-align: middle;
+    height: 70px;
+    width: 70px;
+}
+
+img.undraw {
+    max-width: 90%;
+    height: 20em;
+    margin: 1em 5.5em;
+    border-radius: 25px;
+}
+
+.navigation {
+    text-align: center;
+    background-color: #F2D0A9;
+    margin-left: auto;
+    margin-right: auto;
+    width: 43%;
+    padding: 1em;
+    border-radius: 30px;
+    border-style: dashed;
+}
+
+.menu {
+    font-size: 1.125em;
+    color: #231F20;
+    padding: 1em 3em 1em;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+.back-to-top {
+    text-align: center;
+    font-size: 1em;
+    width: 30%;
+    margin: 1em auto 1em;
+    padding: 1em 2em 1em;
+    background-color: #EF6F6C;
+    border-radius: 15px;
+}
+
+.back-to-top > a {
+    color: #FDFAE1;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.back-to-top > a:hover {
+    font-weight: 700;
+}
+
+tr {
+    text-align: center;
+}

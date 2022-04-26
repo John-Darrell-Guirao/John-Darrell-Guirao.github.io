@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="Author" content="Guirao, John Darrell">
+    <meta name="Description" content="CSS List Properties Program">
+    <title>Snaxx House | Menu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Shadows+Into+Light&family=Kaushan+Script&family=Montserrat&family=Nosifer&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="GUIRAO_IMAGES_ITCD/siteIcon.png">
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="GUIRAO_IMAGES_ITCD/orderForm.css">
+    <!--GUIRAO, JOHN DARRELL-->
+    <!--APRIL 23, 2022-->
+    
+    <p id="house"><img alt="logo of snaxxhouse" src="GUIRAO_IMAGES_ITCD/pageLogo.png" class="pageLogo"> - - Snaxx House - -</p><br>
+    <div class="navigation">
+      <p style="Font-family: 'Oxygen', sans-serif; font-size: 1.75em; font-style: oblique; font-weight: 700;">
+        ~ Good Food is Good Mood ~
+      </p>
+      <p>
+        What do you like to have for today? Quickly browse the menu by clicking the icon below!
+      </p>
+      <a href="#burger">
+        <img alt="Icon of the burger" src="GUIRAO_IMAGES_ITCD/burgerIcon.png" class="iconMenu"></a>
+      <a href="#pasta">
+        <img alt="Icon of the burger" src="GUIRAO_IMAGES_ITCD/pastaIcon.png" class="pastaIcon"></a>
+      <a href="#fries">
+        <img alt="Icon of the burger" src="GUIRAO_IMAGES_ITCD/friesIcon.png" class="iconMenu"></a>
+      <a href="#drinks">
+        <img alt="Icon of the burger" src="GUIRAO_IMAGES_ITCD/drinkIcon.png" class="iconMenu"></a>
+    </div><br><br>
+        <section>
+          <form action="" method="post">
+            <fieldset>
+                  <legend id="custInfo"><u>Customer Information</u></legend>
+                 <label for="fullName">Full Name: </label>
+                <input type="text" name="fullName" id="fullName" placeholder="e.g. John Doe" required>
+              
+                 <label for="address">Complete Address: </label>
+                <input type="text" name="address" id="address" placeholder="e.g. Lot 22-F, Blk. 16..." required>
+              
+                 <label for="contactNumber">Contact Number: </label>
+                <input type="phone" id="contactNumber" placeholder="e.g. 09560..." required>
+
+                 <label for="email">Email address: </label>
+                <input type="email" name="email" id="toEmail" placeholder="e.g. snaxxhouse@gmail.com">
+
+                 <label for="description">Description on how to get to the place: </label required><br>
+                <textarea name="description" id="custDescription" cols="77" rows="10"></textarea>
+            </fieldset>  
+           </form>
+        </section><br><br><br>
+        <section>
+          <form action="" method="post">
+            <fieldset>
+                <legend id="burger"><u>Burger</u></legend>
+              <div class="checks">         
+                    <img src="GUIRAO_IMAGES_ITCD/burger.jpg" alt="Picture of our special burger." class="food">
+                      <label for="burger">Create your own burger! Feel free to check what your burger should have: </label><br>
+                    <p>
+                        <img src="GUIRAO_IMAGES_ITCD/bunIcon.png" alt="icon of a bun." class="orderIcon">
+                        Choose your Bun:<br>
+                        <input type="radio" name="bun" id="bun">
+                        <label for="orderBurger">White Bun</label><br>
+                        <input type="radio" name="bun" id="bun">
+                        <label for="orderBurger">Wheat Bun</label><br>
+                        <input type="radio" name="bun" id="bun">
+                        <label for="orderBurger">Honey Oat</label><br>
+                        <input type="radio" name="bun" id="bun">
+                        <label for="orderBurger">Sugar Free</label><br>
+                    </p> 
+                    <p>
+                        <img src="GUIRAO_IMAGES_ITCD/pattyIcon.png" alt="icon of a a patty." class="orderIcon">
+                        Choose your Patty:
+                        <input type="radio" name="patty" id="singlePatty">
+                        <label for="orderBurger">Single Patty</label>
+                        <input type="radio" name="patty" id="doublePatty">
+                        <label for="orderBurger">Double Patty</label>
+                    </p>  
+                    <p>
+                        <img src="GUIRAO_IMAGES_ITCD/cheeseIcon.png" alt="icon of a cheese." class="orderIcon">
+                        Choose your Add-on/s:<br><br>
+                        <input type="checkbox" id="withCheese">
+                        <label for="orderBurger">With Cheese</label><br>
+                        <input type="checkbox" id="coleslaw">
+                        <label for="orderBurger">Coleslaw</label><br>
+                        <input type="checkbox" id="tomato">
+                        <label for="orderBurger">Tomato</label><br>
+                        <input type="checkbox" id="onion">
+                        <label for="orderBurger">Onion</label><br>
+                        <input type="checkbox" id="cucumber">
+                        <label for="orderBurger">Cucumber</label><br>
+                        <input type="checkbox" id="bacon">
+                        <label for="orderBurger">Bacon</label>
+                    </p>
+                    <p>
+                        <img src="GUIRAO_IMAGES_ITCD/quantityIcon.png" alt="icon of quantity." class="orderIcon"> 
+                        Quantity:
+                        <input type="number" id="quantity" max="25" min="0">
+                    </p>
+                    <p><br>
+                      <div class="back-to-top">
+                        <a href="#house">Go to Top</a>
+                      </div>
+                    </p>
+                 </div>
+                </fieldset> 
+            </form>
+        </section><br><br><br>
+        <section>
+            <form action="" method="post">
+              <fieldset>
+                  <legend id="pasta">Pasta</legend>
+                <div class="checks">                          
+                      <img src="GUIRAO_IMAGES_ITCD/pasta.jpg" alt="Picture of our special pasta." class="food">
+                        <label for="drink">The sauce is the soul of a pasta, choose what your pasta should have: </label><br>
+                    <p>
+                        <img src="GUIRAO_IMAGES_ITCD/pastaIcon.png" alt="icon of pasta." class="orderIcon"> 
+                        Choose your Sauce:<br>
+                        <input type="radio" name="sauce" id="carbonara">
+                        <label for="orderPasta">Carbonara</label><br>
+                        <input type="radio" name="sauce" id="pesto">
+                        <label for="orderPasta">Pesto</label><br>
+                        <input type="radio" name="sauce" id="spaghetti">
+                        <label for="orderPasta">Spaghetti</label><br>
+                        <input type="radio" name="sauce" id="extraCheese">
+                        <label for="orderPasta">Extra Cheese</label><br>
+                        <input type="radio" name="sauce" id="marina">
+                        <label for="orderPasta">Marina</label><br>
+                        <input type="radio" name="sauce" id="bolognese">
+                        <label for="orderPasta">Bolognese</label><br>
+                    </p> 
+                    <p>
+                        <img src="GUIRAO_IMAGES_ITCD/quantityIcon.png" alt="icon of quantity." class="orderIcon"> 
+                        Quantity (Per Box):
+                        <input type="number" id="quantity" max="15" min="0">
+                    </p>
+                    <p><br>
+                      <div class="back-to-top">
+                        <a href="#house">Go to Top</a>
+                      </div>
+                    </p>
+                  </div>
+                </fieldset> 
+              </form>
+        </section><br><br><br>
+        <section>
+            <form action="" method="post">
+              <fieldset>
+                  <legend id="fries">Fries</legend>
+                <div class="checks">                           
+                    <img src="GUIRAO_IMAGES_ITCD/fries.jpg" alt="Picture of our special fries." class="food">
+                    <label for="fries">Care for some fries? Choose the size and flavor of your fries: </label><br>
+                    <p> 
+                        Choose your size:<br><br>
+                        <img src="GUIRAO_IMAGES_ITCD/friesSizeIcon.png" alt="icon of quantity." class="orderSizeIconOne">
+                        <input type="radio" name="size" id="small">
+                        <label for="orderFries">Small</label>
+                        <img src="GUIRAO_IMAGES_ITCD/friesSizeIcon.png" alt="icon of quantity." class="orderSizeIconTwo">
+                        <input type="radio" name="size" id="medium">
+                        <label for="orderFries">Medium</label>
+                        <img src="GUIRAO_IMAGES_ITCD/friesSizeIcon.png" alt="icon of quantity." class="orderSizeIconThree">
+                        <input type="radio" name="size" id="medium">
+                        <label for="orderFries">Large</label><br>
+                    </p> 
+                    <p>
+                        Choose your flavor:<br><br>
+                        <img src="GUIRAO_IMAGES_ITCD/bbqIcon.png" alt="icon of quantity." class="orderSizeIconTwo">
+                        <input type="radio" name="flavor" id="bbq">
+                        <label for="orderFries">BBQ</label>
+                        <img src="GUIRAO_IMAGES_ITCD/sourCreamIcon.png" alt="icon of quantity." class="orderSizeIconTwo">
+                        <input type="radio" name="flavor" id="sourCream">
+                        <label for="orderFries">Sour Cream</label>
+                        <img src="GUIRAO_IMAGES_ITCD/cheeseFlavorIcon.png" alt="icon of quantity." class="orderSizeIconTwo">
+                        <input type="radio" name="flavor" id="cheese">
+                        <label for="orderFries">Cheese</label>
+                    </p>
+                    <p>
+                        <img src="GUIRAO_IMAGES_ITCD/quantityIcon.png" alt="icon of quantity." class="orderIcon"> 
+                        Quantity:
+                        <input type="number" id="quantity" max="5" min="0">
+                    </p>
+                    <p><br>
+                      <div class="back-to-top">
+                        <a href="#house">Go to Top</a>
+                      </div>
+                    </p>
+                   </div>
+                  </fieldset> 
+              </form>
+          </section><br><br><br>
+          <section>
+            <form action="" method="post">
+              <fieldset>
+                  <legend id="drinks">Drinks</legend>
+                <div class="checks">                          
+                    <img src="GUIRAO_IMAGES_ITCD/drinks.jpg" alt="Picture of our drinks." class="food">
+                    <label for="drinks">Quench your thirst! Pick your drinks: </label><br>
+                    <p>
+                        <img src="GUIRAO_IMAGES_ITCD/drinkMenuIcon.png" alt="icon of quantity." class="orderIcon">
+                        Choose your drinks:<br><br>
+                        <input type="checkbox" id="coke">
+                        <label for="orderDrink">Coke</label><br>
+                        <input type="checkbox" id="sarsi">
+                        <label for="orderDrink">Sarsi</label><br>
+                        <input type="checkbox" id="sprite">
+                        <label for="orderDrink">Sprite</label><br>
+                        <input type="checkbox" id="orangeJuice">
+                        <label for="orderDrink">Orange Juice</label><br>
+                        <input type="checkbox" id="icedCoffee">
+                        <label for="orderDrink">Black Iced Coffee with Vanilla</label><br>
+                        <input type="checkbox" id="icedAmericano">
+                        <label for="orderDrink">Iced Americano</label><br>
+                        <input type="checkbox" id="mochaFrappe">
+                        <label for="orderDrink">Mocha Frappe</label><br>
+                        <input type="checkbox" id="bottledWater">
+                        <label for="orderDrink">Bottled Water</label>
+                    </p>
+                    <p>
+                         <label for="drinkSize">Select your drink/s size:</label>
+                        <img src="GUIRAO_IMAGES_ITCD/drinkSizeIcon.png" alt="icon of quantity." class="orderSizeIconOne">
+                        <img src="GUIRAO_IMAGES_ITCD/drinkSizeIcon.png" alt="icon of quantity." class="orderSizeIconTwo">
+                        <img src="GUIRAO_IMAGES_ITCD/drinkSizeIcon.png" alt="icon of quantity." class="orderSizeIconThree"><br>
+                        <select id="drinkSize" value="Small">
+                          <option value="Small">Small</option>
+                          <option value="Medium">Medium</option>
+                          <option value="Large">Large</option>
+                      </select>
+                    </p><br>
+                    <p>
+                        <img src="GUIRAO_IMAGES_ITCD/quantityIcon.png" alt="icon of quantity." class="orderIcon"> 
+                        Quantity:
+                        <input type="number" id="quantity" max="10" min="0">
+                    </p>
+                    <p><br>
+                      <div class="back-to-top">
+                        <a href="#house">Go to Top</a>
+                      </div>
+                    </p>
+                   </div>
+                  </fieldset> 
+              </form>
+        </section><br><br><br>
+        <section>
+            <form action="" method="post">
+              <fieldset>
+                  <legend id="feedback">Feedback</legend>
+                <div class="checks">                         
+                    <img src="GUIRAO_IMAGES_ITCD/feedback.png" alt="Picture of a girl showing her opinion." class="undraw">
+                    <label for="feedback">We care for you! That is why we want to serve you better. Have some feedbacks? Feel free to share it to us! </label><br>
+                    <p>
+                        <textarea name="feedback" id="inputFeedback" cols="77" rows="10"></textarea>  
+                    </p> 
+                    <p><br>
+                      <div class="back-to-top">
+                        <a href="#house">Go to Top</a>
+                      </div>
+                    </p>
+                   </div>
+                  </fieldset> 
+              </form>
+        </section><br><br><br>
+        <section>
+            <form action="" method="post">
+              <fieldset>
+                  <legend id="delivery">Delivery</legend>
+                <div class="checks">                          
+                    <img src="GUIRAO_IMAGES_ITCD/delivery.png" alt="Picture of a delivery location." class="undraw">
+                    <label for="feedback">Choose how should your order be delivered to you: </label><br><br>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="GUIRAO_IMAGES_ITCD/pickUpIcon.png" alt="icon of quantity." class="orderIcon">
+                        <input type="radio" name="delivery" id="pickup">
+                        <label for="orderDelivery">Pick-up</label>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="GUIRAO_IMAGES_ITCD/deliveryIcon.png" alt="icon of quantity." class="orderIcon">
+                        <input type="radio" name="delivery" id="pickup">
+                        <label for="orderDelivery">Delivery</label>
+                    </p>
+                    <p><br>
+                      <div class="back-to-top">
+                        <a href="#house">Go to Top</a>
+                      </div>
+                    </p> 
+                   </div>
+                  </fieldset> 
+              </form>
+        </section><br><br>
+        <div class="checks">
+            <input type="submit" value="Submit" id="submit">
+        </div>
+</body>
+</html>
