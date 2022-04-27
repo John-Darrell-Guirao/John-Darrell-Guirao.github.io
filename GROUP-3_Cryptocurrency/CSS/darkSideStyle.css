@@ -1,0 +1,181 @@
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: #F5FBEF;
+    display: flex; /*nina*/
+    flex-direction: column; /*nina*/
+    min-height: 100vh; /*nina*/
+    margin: 0; /*nina*/
+}
+
+/*#navIcon {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 2em 1em 2em;
+    height: 3em;
+    width: 3em;
+}*/
+
+.navigation {
+    text-align: center;
+    background-color: #1B1725;
+    color: #F5EFFF;
+    font-weight: bold;
+}
+
+.navigation > div#name {
+    font-size: 1.75em;
+    text-align: left;
+    padding: 0 5em 0 0;
+    font-weight: bold;
+    color:#FFC857;
+}
+
+.navigation > div {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 2em 1.25em 2em;
+}
+.navigation a {
+    color: #FDFAE1;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    font-weight: 700;
+}
+
+.navigation a:active {
+    color: #EF6F6C;
+}
+
+footer {
+    margin-top: auto; /*nina*/
+    text-align: right;
+    background-color: #1B1725;
+    color: #F5EFFF;
+}
+
+p.footerText {
+    font-size: 1.25em;
+    color: #FDFAE1;
+    text-align: right;
+    padding: 1em 5em 1em 1em;
+    font-weight: bold;
+}
+
+.content {
+    display: inline-block;
+    margin: 0 5em 0;
+    vertical-align: middle;
+}
+
+.text {
+    float: left;
+    width: 50%;
+    margin: 6em 1em 6em;
+}
+
+h2 {
+    margin-right: 10em;
+    margin-right: 10em;
+    font-size: 5em;
+    font-weight: 800;
+    color:#EF6F6C;
+    padding: 0em 2em 0em;
+}
+
+p {
+    text-align: center;
+    font-size: 1.5em;
+    color: #662E9B;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.text > .explore-button {
+    text-align: center;
+    background-color: #662E9B;
+    vertical-align: middle;
+    width: 28%;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    border-radius: 15px;
+    min-width: 250px; /*nina*/
+}
+
+.explore-button > a {
+    font-size: 1.125em;
+    color: #FDFAE1;
+    padding: 1em 3em 1em;
+    text-decoration: none;
+}
+
+.explore-button > a:hover {
+    font-weight: 700;
+}
+
+/*button dropdown*/ /*heidi nina*/
+.list-content-container{
+    display: none;
+    position: absolute;
+    min-width: 120px;
+    z-index: 1;
+}
+.list-content-container a{
+    background-color: #000;
+    text-decoration: none;
+    width: 100%;
+    padding: 14px 18px;
+    display: block;
+}
+.list-content-container a:hover{
+    background-color: #ED4C30;
+    color: white;
+}
+.drop-down-container:hover .list-content-container{
+    display: block;
+    width: 130px;
+}
+.drop-down-container:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+i{
+    text-indent: 5px;
+}
+/*dropdown end*/
+
+/*css for darkside*/
+h1{
+    text-align: center;
+    padding-left: 20px;
+    font-size: 3em;
+    margin-top: 100px;
+}
+
+h5{
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    margin: 50px auto 0 auto;
+}
+td{
+    text-align: justify;
+    width: 500px;
+    padding: 20px;
+}
+table{
+    margin: 0 3% 20px 3%;
+}
+th{ 
+    font-size: 2em;
+    padding-top: 40px;
+}
