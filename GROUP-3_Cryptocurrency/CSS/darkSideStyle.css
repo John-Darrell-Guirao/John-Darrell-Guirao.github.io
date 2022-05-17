@@ -7,15 +7,6 @@ body {
     margin: 0; /*nina*/
 }
 
-/*#navIcon {
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
-    padding: 2em 1em 2em;
-    height: 3em;
-    width: 3em;
-}*/
-
 .navigation {
     text-align: center;
     background-color: #1B1725;
@@ -86,14 +77,6 @@ h2 {
     padding: 0em 2em 0em;
 }
 
-p {
-    text-align: center;
-    font-size: 1.5em;
-    color: #662E9B;
-    font-style: italic;
-    font-weight: 700;
-}
-
 .text > .explore-button {
     text-align: center;
     background-color: #662E9B;
@@ -119,6 +102,12 @@ p {
 }
 
 /*button dropdown*/ /*heidi nina*/
+.content-author{
+    margin-right: auto;
+    margin-left: auto;
+	
+	padding-left: 200px;
+}
 .list-content-container{
     display: none;
     position: absolute;
@@ -152,9 +141,8 @@ i{
 /*css for darkside*/
 h1{
     text-align: center;
-    padding-left: 20px;
     font-size: 3em;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 h5{
@@ -163,19 +151,92 @@ h5{
 }
 
 .logo{
-    width: 200px;
-    height: 200px;
-    margin: 50px auto 0 auto;
+    width: 275px;
+    height: 275px;
+    margin: -30px auto;
+}
+
+.logoP{
+    width: 275px;
+    height: 275px;
+    margin: 10px auto;
+}
+
+.logoSVG{
+    width: 350px;
+    height: 350px;
+    margin: 0 auto 0 auto;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+.title-darkside, h1, h5{
+    padding: 0;
+    margin-left: -220px;
 }
 td{
-    text-align: justify;
     width: 500px;
-    padding: 20px;
 }
 table{
-    margin: 0 3% 20px 3%;
+    margin: 5% 3% 20px 3%;
 }
-th{ 
+th{
     font-size: 2em;
-    padding-top: 40px;
+    padding-bottom: 45px;
+}
+.pseudonym-img{
+    padding-top: 50px;
+}
+
+/*three dots*/
+.see-more-dots{
+    color: black;
+    font-size: 3em;
+    text-decoration: none;
+}
+
+.contentss{
+    margin-top: -5px;
+    text-align: justify;
+    text-indent: 2em;
+    font-size: 1.25em;
+}
+
+/*read more*/
+a{
+    text-decoration: none;
+}
+.rm{
+    background-color: #1B1725;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 5px 5px 1px #FFC857;
+    color: #F5EFFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    margin: 30px auto 0 auto;
+    width: 100px;
+    text-align: center;
+}
+.rm:hover{
+    background-color: #1B1725;
+    text-align: center;
+    font-weight: bold;
+    color: #FFC857;
+    text-decoration: none;
+}
+/*font*/
+
+.navigation, .title, .content{
+	font-family:'Yrsa', serif;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+}
+.navigation > div#name {
+	font-family:'Merriweather', serif;
 }

@@ -1,0 +1,340 @@
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: #F5FBEF;
+    display: flex; /*nina*/
+    flex-direction: column; /*nina*/
+    min-height: 100vh; /*nina*/
+    margin: 0; /*nina*/
+}
+
+.navigation {
+    text-align: center;
+    background-color: #1B1725;
+    color: #F5EFFF;
+    font-weight: bold;
+}
+
+.navigation > div#name {
+    font-size: 1.75em;
+    text-align: left;
+    padding: 0 5em 0 0;
+    font-weight: bold;
+    color:#FFC857;
+}
+
+.navigation > div {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 2em 1.25em 2em;
+}
+
+.navigation a {
+    color: #FDFAE1;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    font-weight: 700;
+}
+
+.navigation a:active {
+    color: #EF6F6C;
+}
+
+footer {
+    margin-top: auto; /*nina*/
+    text-align: right;
+    background-color: #1B1725;
+    color: #F5EFFF;
+}
+
+p.footerText {
+    font-size: 1.25em;
+    color: #F5EFFF;
+    text-align: right;
+    float: right;
+    padding: 1em 5em 1em 1em;
+    font-weight: bold;
+}
+
+.text {
+    float: left;
+    width: 50%;
+    margin: 6em 1em 6em;
+}
+.title{
+	padding-bottom: 70px;
+}	
+h2 {
+    margin-right: 10em;
+    margin-right: 10em;
+    font-size: 5em;
+    font-weight: 800;
+    color:#EF6F6C;
+    padding: 0em 2em 0em;
+}
+
+.text > .explore-button {
+    text-align: center;
+    background-color: #662E9B;
+    vertical-align: middle;
+    width: 28%;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    border-radius: 15px;
+    min-width: 250px; /*nina*/
+}
+
+.explore-button > a {
+    font-size: 1.125em;
+    color: #FDFAE1;
+    padding: 1em 3em 1em;
+    text-decoration: none;
+}
+
+.explore-button > a:hover {
+    font-weight: 700;
+}
+
+/*button dropdown*/ /*heidi nina*/
+.list-content-container{
+    display: none;
+    position: absolute;
+    min-width: 120px;
+    z-index: 1;
+}
+.list-content-container a{
+    background-color: #000;
+    text-decoration: none;
+    width: 100%;
+    padding: 14px 18px;
+    display: block;
+}
+.list-content-container a:hover{
+    background-color: #ED4C30;
+    color: white;
+}
+.drop-down-container:hover .list-content-container{
+    display: block;
+    width: 130px;
+}
+.drop-down-container:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+i{
+    text-indent: 5px;
+}
+/*dropdown end*/
+
+h1{
+    text-align: center;
+    padding-left: 20px;
+    font-size: 3em;
+    margin-top: 100px;
+}
+
+/*title addtional info*/
+h5{
+    text-align: left;
+    font-size: 1.25em;
+    color: #FFC857;
+}
+/*end*/
+
+table{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+td{
+    text-align: justify;
+    text-indent: 2em;
+    height: auto;
+
+}
+th{
+    font-size: 1.50em;
+    padding: 25px 0 10px 0;
+	/*border: 3px solid red;*/
+}
+	
+/*table for the contents*/
+#table2{
+    margin: 0 auto 10px auto;
+    padding: 50px;
+    max-width: 800px;
+}
+
+/*middle picture*/
+.pseudonym-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+/*topics for you*/
+fieldset{
+    margin: auto;
+    background-color: #1B1725;
+}
+
+legend{
+    color: #FFC857;
+    background-color: #1B1725;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: 800;
+    font-size: 1.80em;
+}
+
+figcaption{
+    color: #FFC857;
+    text-align: center;
+    font-size: 1.55em;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+	
+}
+
+.topics-img:hover{
+    opacity: .8;
+}
+
+#container{
+    width: auto;
+    margin: 90px auto;
+}
+
+.col1, .col2, .col3, .col4, .col5, .col6{
+    width: auto;
+    float: left;
+    margin: 30px;
+}
+
+.topics-img{
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+/*reference*/
+.ref{
+	text-align: justify;
+    height: auto;
+	padding: 5px 0 5px 0;
+	font-size: 1em;
+    text-indent: 2em;
+}
+
+#ref-container{
+    padding: 10px;
+	background-color: #E8E8E8;
+	margin-bottom: auto;
+}
+p.references{
+    color: #1B1725;
+    font-weight: bold;
+    text-indent: 2em;
+}
+
+
+p{
+	font-family: Montserrat, sans-serif;
+	color: #1B1725;
+}	
+
+/*ethereum css left side*/
+p, blockquote{
+	font-family: Montserrat, sans-serif;
+    font-size: 1.25em;
+    line-height: 1.15em;
+	color: #1B1725;
+    text-indent: 2em;
+    text-align: justify;
+    width: 600px;
+}
+
+.ethereum-pic{
+    float: left;
+    border-radius: 5px;
+}
+
+.bc-img{
+    height: 200px;
+    width: 600px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: -100px;
+}
+
+.ethereum-left-container, .ethereum-pic, blockquote{
+    margin-left: -100px;
+    margin-right: 2%;
+}
+
+/*ethereum right container css*/
+.ethereum-right-container{
+    width: 250px;
+    height: auto;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 400px;
+    margin-left: 500px;
+    border-radius: 10px;
+    padding: 0 25px;
+}
+
+h3{
+    color: #FFC857;
+    font-weight: normal;
+}
+
+h3:hover{
+    color: #FFC857;
+    font-weight: 600;
+}
+
+.ethereum-right-text{
+    color: #E8E8E8;
+    width: 255px;
+    text-align: justify;
+    font-size: 12px;
+    text-indent: none;
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+
+.all{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.embed-vid{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/*font*/
+
+.navigation, .title, .content{
+	font-family:'Yrsa', serif;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+}
+.navigation > div#name {
+	font-family:'Merriweather', serif;
+}

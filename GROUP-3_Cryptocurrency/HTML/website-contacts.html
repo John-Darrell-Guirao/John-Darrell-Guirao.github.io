@@ -1,153 +1,93 @@
 <!DOCTYPE html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Contact Us</title>
     <link rel="icon" type="image/x-icon" href="../IMAGES/ICONS/tabIcon.png">
+    <link rel="stylesheet" href="../CSS/website-contacts-styles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Roboto+Slab:wght@400;500;700;900&family=Rowdies:wght@300;400;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
 </head>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Roboto+Slab:wght@400;500;700;900&family=Rowdies:wght@300;400;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
 <style type="text/css">
-    body {
-        font-family: Montserrat, sans-serif;
-        background-color: #F5FBEF;
-    }
-    fieldset {
-        width: 70%;
-        min-width:300px;
-        margin:auto;
-        margin-top: 100px;
-        font-family: Arial;
-        font-size: 16px;
-    }
-    legend {
-        color: #FFC857;
-        font-size: 30px;
-    }
-    .navigation {
-        text-align: center;
-        background-color: #1B1725;
-        color: #F5EFFF;
-        font-weight: bold;
-    }
-    .navigation > div#name {
-        font-size: 1.75em;
-        text-align: left;
-        padding: 0 5em 0 0;
-        font-weight: bold;
-        color:#FFC857;
-    }
-    .navigation > div {
-        display: inline-block;
-        vertical-align: middle;
-        text-align: center;
-        padding: 2em 1.25em 2em;
-    }
-    footer {
-        text-align: right;
-        background-color: #1B1725;
-        color: #F5EFFF;
-    }
-    p.footerText {
-    font-size: 1.25em;
-    color: #FDFAE1;
-    text-align: right;
-    padding: 1em 5em 1em 1em;
-    font-weight: bold;
-}
-    .navigation a {
-        color: #FDFAE1;
-        text-decoration: none;
-    }
-    .navigation a:hover {
-        font-weight: 700;
-    }
-    .navigation a:active {
-        color: #EF6F6C;
-    }
-    img {
-        height: 20px;
-        width: 20px;
-        padding-left: 70px;
-        padding-right: -10px;
-        float: right;
-    }
-    li {
-        width: 100px;
-        height: 100px;
-        margin-left: 0px;
-        margin-right: -140px;
-        max-width: 80%;
-    }
-    ul.icons li {
-        display: inline-block;
-    }
-    p {
-        font-family: Montserrat, sans-serif;
-    }
-    .submit {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: #FFC857;
-        background-color: #1B1725;
-        margin-left: 45%;
-    }
-    .message {
-        width:99%;
-        resize: none;
-    }
-    footer {
-        margin-top: auto; /*nina*/
-        text-align: left;
-        background-color: #1B1725;
-        color: #FFC857;
-    }
+
+
+
+
 </style>
+
 <body>
     <div class="navigation">
         <!--<div><img src="crypto.png" alt="Crypto logo." title="Crypto logo" id="navIcon"></div>-->
         <div id="name">CryptoKnow.</div>
         <div><a href="../indexCrypto.html">Home</a></div>
+        <div class="container">
+            <div class="drop-down-container">
+                <div><a href="cryptocurrency.html">Cryptocurrency<i class="fa fa-caret-down" style='font-size:20px'></i></a>
+                    <div class="list-content-container">
+                        <a href="whatisit-cryptocurrency.html">What is it?</a>
+                        <a href="blockhain-cryptocurrency.html">The Blockchain</a>
+                        <a href="types.html">Types</a>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div><a href="darkSide.html">Dark Side</a></div>
         <div><a href="tips.html">Tips</a></div>
         <div><a href="aboutTheAuthors.html">About the Authors</a></div>
         <div><a href="gallery.html">Gallery</a></div>
-        <div><a href="">Contact Us</a></div>
+        <div><a href="website-contacts.html">Contact Us</a></div>
     </div>
 
     <fieldset>
         <legend>Contact Us</legend>
-        <h4>Share your thoughts.</h4>
+        <h4>Share your Thoughts with us.</h4>
 
-        <h6>Love the content? Feel free to share your thoughts or inquiries to us. We would love to hear from you. Fill out the form below and stay updated with the latest trends in cryptocurrency. Keep in touch with us, we would love to hear from you!</h6>
-            <label for="fullname">Name </label><br>
-            <input type="text" name="fullname" id="fullname" placeholder="Enter your name" class="contacts-name"><br/><br/>
+        <h6>Love the Content? Feel free to share your thoughts or inquiries to us. We would love to hear from you. Fill
+            out the form below and stay updated with the latest trends in Cryptocurrency. Keep in touch with us, we
+            would love to hear from you!</h6>
+        <label for="fullname">Name: </label><br>
+        <input type="text" name="fullname" id="fullname" class="contacts-name" size="30"><br /><br />
 
-            <label for="email">Email</label><br>
-            <input type="email" name="email" id="email" placeholder="Enter your valid e-mail address" class="contacts-email"><br/><br/>
-            
-            <label for="contacts">Contact No.</label><br>
-            <input type="contacts" name="contacts" id="contacts" placeholder="Enter your valid contact number" class="contacts"><br/><br/>
+        <label for="email">Email: </label><br>
+        <input type="email" name="email" id="email" class="contacts-name"><br /><br />
 
-            <label for="message">Message </label><br/>
-            <textarea name="message" id="message" class="message" placeholder="Enter your message/concerns here" cols="30" rows="5"></textarea><br><br>
+        <label for="contacts">Contact Number:</label><br>
+        <input type="contacts" name="contacts" id="contacts" class="contacts-name"><br /><br />
 
-            <input type="checkbox" name="terms" id="terms" class="terms">
-            <label for="terms" class="terms">I have read and accept the terms and conditions of CryptoKnow.</label><br>
-            <br><input type="submit" id="submit" class="submit" value="SUBMIT">
+        <label for="message">Message: </label><br />
+        <textarea name="message" id="message" class="message" cols="30" rows="5"></textarea><br><br>
+
+        <input type="checkbox" name="terms" id="terms" class="terms">
+        <label for="terms" class="terms">I have Read and Accept the Terms and Conditions of CryptoKnow.</label><br>
+        
+        <br><input type="submit" id="submit" class="submit" value="SUBMIT">
     </fieldset>
 
-    <p>Get in touch:</p>
-    <p>Contact Number: 09178345192</p>
-    <p>Address: 2219 Recto Ave, Sampaloc, Manila, 1008 Metro Manila</p>
     <div class="icons">
         <ul type="none" class="icons">
-            <li><a href="https://www.facebook.com/"><img src ="../IMAGES/facebook.png" class="fb"></a></li>
-            <li><a href="https://twitter.com/"><img src ="../IMAGES/twitter.png" class="twitter"></a></li>
-            <li><a href="https://www.instagram.com/?hl=en"><img src ="../IMAGES/instagram.png" class="ig"></a></li>
-            <li><a href="https://www.google.com/intl/fil/gmail/about/"><img src ="../IMAGES/gmail.png" class="gmail"></a></li>
+            <li><a href="https://www.facebook.com/"><img src="../IMAGES/facebook.png" class="fb"></a></li>
+            <li><a href="https://twitter.com/"><img src="../IMAGES/twitter.png" class="twitter"></a></li>
+            <li><a href="https://www.instagram.com/?hl=en"><img src="../IMAGES/instagram.png" class="ig"></a></li>
+            <li><a href="https://www.google.com/intl/fil/gmail/about/"><img src="../IMAGES/gmail.png" class="gmail"></a>
+            </li>
         </ul>
+    </div>
+
+    <div id="ref-container">
+        <hr>
+        <p class="references"></p>
+        <p>Get in touch with us:</p>
+        <p>Contact Number: 09178345192</p>
+        <p>Address: 2219 Recto Ave, Sampaloc, Manila, 1008 Metro Manila</p>
         </div>
-        <footer>
-            <p class="footerText">&#169; Copyright 2022</p>
-        </footer>
+    </div>
+
+    <footer>
+        <p class="footerText">&#169; Copyright 2022</p>
+    </footer>
 </body>
+
 </html>

@@ -1,0 +1,245 @@
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: #F5FBEF;;
+    display: flex; /*nina*/
+    flex-direction: column; /*nina*/
+    min-height: 100vh; /*nina*/
+    margin: 0; /*nina*/
+}
+
+.navigation {
+    text-align: center;
+    background-color: #1B1725;
+    color: #F5EFFF;
+    font-weight: bold;
+}
+
+.navigation > div#name {
+    font-size: 1.75em;
+    text-align: left;
+    padding: 0 5em 0 0;
+    font-weight: bold;
+    color:#FFC857;
+}
+
+.navigation > div {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 2em 1.25em 2em;
+}
+
+.navigation a {
+    color: #FDFAE1;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    font-weight: 700;
+}
+
+.navigation a:active {
+    color: #EF6F6C;
+}
+
+footer {
+    margin-top: auto; /*nina*/
+    text-align: right;
+    background-color: #1B1725;
+    color: #F5EFFF;
+}
+
+p.footerText {
+    font-size: 1.25em;
+    color: #F5EFFF;
+    text-align: right;
+    padding: 1em 5em 1em 1em;
+    font-weight: bold;
+}
+
+
+/*button dropdown*/ /*heidi nina*/
+.list-content-container{
+    display: none;
+    position: absolute;
+    min-width: 120px;
+    z-index: 1;
+}
+.list-content-container a{
+    background-color: #000;
+    text-decoration: none;
+    width: 100%;
+    padding: 14px 18px;
+    display: block;
+}
+.list-content-container a:hover{
+    background-color: #ED4C30;
+    color: white;
+}
+.drop-down-container:hover .list-content-container{
+    display: block;
+    width: 130px;
+}
+.drop-down-container:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+i{
+    text-indent: 5px;
+}
+/*dropdown end*/
+
+
+/*title and logo*/
+.title-authors{
+    width: 300px;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.title-authors img{
+    margin-bottom: 50px;
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+.title{
+    margin-top: 50px;
+    text-align: center;
+}
+h5{
+    margin-top: -10px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 1.20em;
+}
+
+
+/*iamge*/
+.content-img{
+    width: 800px;
+    height: 500px;
+    background-color: rgb(209, 214, 209);
+    box-shadow: 2px 2px 20px #FFC857;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.content-img2{
+    background-color: #F5EFFF;
+    border-radius: 5px;
+    width: 250px;
+    margin: 5px;
+    height: 400px;
+    float: left;
+    box-shadow: 0 0 10px #FFC857;
+}
+
+.content-container{
+    width: 800px;
+}
+
+.content-container2{
+    width: 799px;
+    margin-top: 750px;
+}
+
+.body-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 55px;
+    border-radius: 5px;
+    background-color: #1B1725;
+}
+
+.one1, .two2, .three3 {
+    width: 236px;
+    float: left;
+    padding: 10px;
+    margin: 5px;
+    height: 680px;
+    background-color: #FFC857;   
+}
+.four4{
+    margin-left: 16px;
+    width: 240px;
+    float: left;
+    padding: 10px;
+    height: 385px;
+    background-color: #FFC857;
+}
+.five5{
+    width: 500px;
+    margin-top: 10px;
+    float: left;
+    padding: 10px;
+    height: 300px;
+    background-color: #FFC857;
+}
+
+.six6{
+    width: 245px;
+    margin-top: 10px;
+    padding: 10px;
+    height: 300px;
+    background-color: #FFC857;
+    float: right;
+}
+/*
+.four4, .five5{
+    margin: 10px auto 10px auto;
+}*/
+
+.txt-content{
+    font-size: 1.25em;
+    line-height: 1.15em;
+    text-align: justify;
+    color: #1B1725;
+}
+
+strong{
+    text-align: left;
+    font-size: 1.50em;
+    color:#1B1725;
+}
+
+.shadow{
+    margin-top: -70px;
+    width:800px;
+    height:50px;
+    border-radius:50%;
+    background: radial-gradient(#FFC857,rgba(0,0,0,0) 60%);
+}
+
+.btn-middle-container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.btn-middle-container p{
+    background-color: #1B1725;
+    border: 1px solid #1B1725;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.50em;
+    color: #F5EFFF;
+    padding: 5px 20px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.btn-middle-container p:hover{
+    color: #FFC857;
+}
+
+.navigation, .title, .content{
+	font-family:'Yrsa', serif;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+}
+.navigation > div#name {
+	font-family:'Merriweather', serif;
+}

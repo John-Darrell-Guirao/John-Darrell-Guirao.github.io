@@ -1,0 +1,234 @@
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: #F5FBEF;
+    display: flex; /*nina*/
+    flex-direction: column; /*nina*/
+    min-height: 100vh; /*nina*/
+    margin: 0; /*nina*/
+}
+
+.navigation {
+    text-align: center;
+    background-color: #1B1725;
+    color: #F5EFFF;
+    font-weight: bold;
+}
+
+.navigation > div#name {
+    font-size: 1.75em;
+    text-align: left;
+    padding: 0 5em 0 0;
+    font-weight: bold;
+    color:#FFC857;
+}
+
+.navigation > div {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 2em 1.25em 2em;
+}
+
+.navigation a {
+    color: #FDFAE1;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    font-weight: 700;
+}
+
+.navigation a:active {
+    color: #EF6F6C;
+}
+
+footer {
+    margin-top: auto; /*nina*/
+    text-align: right;
+    background-color: #1B1725;
+    color: #F5EFFF;
+}
+
+p.footerText {
+    font-size: 1.25em;
+    color: #F5EFFF;
+    text-align: right;
+    padding: 1em 5em 1em 1em;
+    font-weight: bold;
+}
+
+.text {
+    float: left;
+    width: 50%;
+    margin: 6em 1em 6em;
+}
+.title{
+	padding-bottom: 70px;
+}	
+h2 {
+    margin-right: 10em;
+    margin-right: 10em;
+    font-size: 5em;
+    font-weight: 800;
+    color:#EF6F6C;
+    padding: 0em 2em 0em;
+}
+
+.text > .explore-button {
+    text-align: center;
+    background-color: #662E9B;
+    vertical-align: middle;
+    width: 28%;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    border-radius: 15px;
+    min-width: 250px; /*nina*/
+}
+
+.explore-button > a {
+    font-size: 1.125em;
+    color: #FDFAE1;
+    padding: 1em 3em 1em;
+    text-decoration: none;
+}
+
+.explore-button > a:hover {
+    font-weight: 700;
+}
+/*reference*/
+.ref{
+	text-align: justify;
+    text-indent: 2em;
+    height: auto;
+	padding: 5px 0 5px 0;
+	font-size:1em;
+}
+
+#ref-container{
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+h3{
+    background-color: #1B1725;
+    color: #F5EFFF;
+    text-indent: 1em;
+}
+
+p{
+	font-family: Montserrat, sans-serif;
+	color: #1B1725;
+	font-weight: bold;
+	font-style: italic;
+	margin-left: 50px;
+}	
+/*button dropdown*/ /*heidi nina*/
+.list-content-container{
+    display: none;
+    position: absolute;
+    min-width: 120px;
+    z-index: 1;
+}
+.list-content-container a{
+    background-color: #000;
+    text-decoration: none;
+    width: 100%;
+    padding: 14px 18px;
+    display: block;
+}
+.list-content-container a:hover{
+    background-color: #ED4C30;
+    color: white;
+}
+.drop-down-container:hover .list-content-container{
+    display: block;
+    width: 130px;
+}
+.drop-down-container:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+i{
+    text-indent: 5px;
+}
+/*dropdown end*/
+
+h1{
+    text-align: center;
+    padding-left: 20px;
+    font-size: 3em;
+    margin-top: 100px;
+}
+
+h5{
+    text-align: center;
+    font-size: 1.25em;
+}
+
+table{
+    margin-right: auto;
+    margin-left: auto;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+td{
+    text-align: justify;
+    text-indent: 2em;
+    font-size: 1.25em;
+    line-height: 1.15em;
+    height: auto;
+}
+
+	
+/*table for the contents*/
+#table2{
+    margin: auto;
+    padding: 50px;
+    max-width: 800px;
+}
+
+/*middle picture*/
+.middle-pic{
+    border-radius: 5px;
+    border: 1px solid #1B1725;
+    box-shadow: 5px 5px 20px black;
+    width: auto;
+    height: auto;
+}
+
+#container{
+    width: auto;
+    margin: 90px auto;
+}
+/*end*/
+
+/*button design back to top*/
+.col10 a{
+    text-decoration: none;
+    color: #F5EFFF;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #1B1725;
+    padding: 5px;
+}
+
+.col10 a:hover{
+    color: #FFC857;
+}
+/*font*/
+
+.navigation, .title, .content{
+	font-family:'Yrsa', serif;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+}
+.navigation > div#name {
+	font-family:'Merriweather', serif;
+}

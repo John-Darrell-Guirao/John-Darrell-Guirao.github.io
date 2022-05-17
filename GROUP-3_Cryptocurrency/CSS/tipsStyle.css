@@ -114,6 +114,7 @@ p {
 }
 
 /*button dropdown*/ /*heidi nina*/
+
 .list-content-container{
     display: none;
     position: absolute;
@@ -147,14 +148,17 @@ i{
 /*css for tips*/
 h1{
     text-align: center;
-    padding-left: 20px;
+    margin-left: -100px;
     font-size: 3em;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 h5{
     text-align: center;
-    font-size: 1.25em;
+    font-size: 1em;
+    margin-top: -10%;
+    margin-bottom: -300%;
+    margin-left: -70px;
 }
 
 table{
@@ -162,15 +166,26 @@ table{
     margin-left: auto;
 }
 img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: -100px;
+    margin-top: 35px;
+	
+    
 }
 /*investments*/
+.invesment{
+    margin-top: 90px;
+    margin-bottom: 50px;
+    padding: 5px;
+}
 .invesment-container{
     margin-right: auto;
     margin-left: auto;
+    margin-top: -10%;
 }
 .investment-img-container img{
+    margin-top: -8px;
     height: 300px;
     width: 300px;
 }
@@ -180,10 +195,10 @@ img{
     margin: 50px 0 0 50px;
     width: 300px;
     height: 300px;
-    padding: 20px;
+    padding: 30px;
 }
 .investment-info-container{
-    border-radius: 5%;
+    border-radius: 5px;
     margin: -345px 0 0 450px;
     width: 800px;
     height: 300px;
@@ -191,30 +206,30 @@ img{
     background-color: #F5EFFF;
 }
 /*jargons*/
+.jargon{
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
 .jargon-container{
     margin-right: auto;
     margin-left: auto;
+    margin-top: -3%;
 }
 .jargon-info-container{
-    /**background-color: #1B1725;
-    color: #F5EFFF;
-    border-radius: 5%;
-    margin: 0 auto 30px auto;
-    width: 800px;
-    height: 300px;*/
 
-    border-radius: 5%;
+    border-radius: 5px;
     margin: -350px 0 0 450;
     width: 800px;
     height: 300px;
-    color: #F5EFFF;
-    background-color: #1B1725;
+    color: #1B1725;
+    background-color: #F5EFFF;
 }
 .jargon-img-container th{
     width: 100%;
 }
 .jargon-img-container img{
     margin-top: -120px;
+    margin-left: 50px;
     height: 300px;
     width: 300px;
 }
@@ -230,11 +245,56 @@ img{
 /*text right*/
 td{
     border: 10px solid transparent;
-    padding: 5px;
+    padding: 40px;
     height: auto;
+    text-align: justify;
 }
+
 p{
     text-shadow: 2px 2px 1px #1B1725;
     color: #FFC857;
-    font-size: 2.99em;
+    font-size: 3.8em;
+    
 }
+
+.col8{
+    padding-top: 250px;
+    left: 60%;
+    position: absolute;
+}
+
+.col7{
+    padding-top: 250px;
+    left: 35%;
+    position: absolute;
+}
+
+.rm{
+    background-color: #1B1725;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 5px 5px 1px #FFC857;
+    color: #F5EFFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+.rm:hover{
+    
+    text-align: center;
+    font-weight: bold;
+    color: #FFC857;
+    text-decoration: none;
+}
+/*font*/
+
+.navigation, .title, .content{
+	font-family:'Yrsa', serif;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+}
+.navigation > div#name {
+	font-family:'Merriweather', serif;
+}
+

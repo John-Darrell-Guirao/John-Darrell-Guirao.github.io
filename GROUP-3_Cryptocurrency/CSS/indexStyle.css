@@ -12,18 +12,9 @@ img {
     padding-top: 3em;
     margin-left: 10em;
     padding-left: 5em;
-    height: 28em;
-    width: 28em;
+    height: 20em;
+    width: 20em;
 }
-
-/*#navIcon {
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
-    padding: 2em 1em 2em;
-    height: 3em;
-    width: 3em;
-}*/
 
 .navigation {
     text-align: center;
@@ -92,21 +83,22 @@ h2 {
     margin-right: 10em;
     font-size: 5em;
     font-weight: 800;
-    color:#EF6F6C;
+    color: #FFC857;
+    text-shadow: 2px 2px 2px #1B1725;
     padding: 0em 2em 0em;
 }
 
 p {
     text-align: center;
     font-size: 1.5em;
-    color: #662E9B;
+    color: #1B1725;
     font-style: italic;
     font-weight: 700;
 }
 
 .text > .explore-button {
     text-align: center;
-    background-color: #662E9B;
+    background-color: #1B1725;
     vertical-align: middle;
     width: 28%;
     padding: 1em;
@@ -119,7 +111,7 @@ p {
 
 .explore-button > a {
     font-size: 1.125em;
-    color: #FDFAE1;
+    color: #FFC857;
     padding: 1em 3em 1em;
     text-decoration: none;
 }
@@ -164,3 +156,14 @@ i{
     text-indent: 5px;
 }
 /*dropdown end*/
+/*font*/
+
+.navigation, .title, .content{
+	font-family:'Yrsa', serif;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+}
+.navigation > div#name {
+	font-family:'Merriweather', serif;
+}
