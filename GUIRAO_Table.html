@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="Author" content="Guirao, John Darrell">
+    <meta name="Description" content="CSS List Properties Program">
+    <title>CSS Table</title>
+    <style type="text/css">
+
+    caption {
+        font-weight: 700;
+        font-size: 1.5em;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+    }
+
+    th, td {
+        padding: 10px;
+        font-size: 0.90em;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    #outreach th {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #14591D;
+        color: #FFFBFA;
+        font-size: 1em;
+    }
+
+    #outreach tr:nth-child(even){
+        background-color: #5B9279;
+    }
+
+    #footer {
+        background-color: #14591D;
+        color: #FFFBFA;
+    }
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="link.css">
+    <!--GUIRAO, JOHN DARRELL-->
+    <!--APRIL 11, 2022-->
+    
+    <table id="outreach">
+        <caption>Outreach Message Report for Joe</caption>
+        <thead>
+            <tr>
+                <th>SocMed Platforms</th>
+                <th>Messages Sent</th>
+                <th>Follow-up Message sent</th>
+                <th>Positive Response</th>
+                <th>Booked Calls</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Facebook</td>
+                <td>25</td>
+                <td>15</td>
+                <td>5</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Instagram</td>
+                <td>25</td>
+                <td>10</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Twitter</td>
+                <td>25</td>
+                <td>10</td>
+                <td>0</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>LinkedIn</td>
+                <td>25</td>
+                <td>25</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+
+        <tfoot id="footer">
+            <tr>
+                <td><b>Total</b></th>
+                <td>100</td>
+                <td>60</td>
+                <td>9</td>
+                <td>6</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
